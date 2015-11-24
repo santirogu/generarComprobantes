@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns1:Catalogo xmlns:ns1="http://creativosdigitales.co/schema/docusfera.xsd">
+	<Entrada>
+		<Codigo>110505</Codigo>
+		<Nombre>CAJA GENERAL</Nombre>
+	</Entrada>
+	<Entrada>
+		<Codigo>110510</Codigo>
+		<Nombre>CAJA MENOR</Nombre>
+	</Entrada>
+	<Entrada>
+		<Codigo>1110</Codigo>
+		<Nombre>BANCOS</Nombre>
+	</Entrada>
+	<Entrada>
+		<Codigo>111005</Codigo>
+		<Nombre>BANCOS MONEDA NACIONAL</Nombre>
+	</Entrada>
+	<Entrada>
+		<Codigo>11100505</Codigo>
+		<Nombre>BANCOLOMBIA CTA CTE</Nombre>
+	</Entrada>
+	<Entrada>
+		<Codigo>11100510</Codigo>
+		<Nombre>MEGABANCO</Nombre>
+	</Entrada>
+	<Entrada>
+		<Codigo>11100515</Codigo>
+		<Nombre>BANCO DE OCCIDENTE</Nombre>
+	</Entrada>
+	<Entrada>
+		<Codigo>1120</Codigo>
+		<Nombre>CUENTAS DE AHORROS</Nombre>
+	</Entrada>
+	<Entrada>
+		<Codigo>112005</Codigo>
+		<Nombre>CTAS AHORRO EN BANCOS</Nombre>
+	</Entrada>
+	<Entrada>
+		<Codigo>11200505</Codigo>
+		<Nombre>BANCOLOMBIA CTA DE AHORROS</Nombre>
+	</Entrada>
+	<Entrada>
+		<Codigo>13</Codigo>
+		<Nombre>DEUDORES</Nombre>
+	</Entrada>
+	<Entrada>
+		<Codigo>1305</Codigo>
+		<Nombre>CLIENTES</Nombre>
+	</Entrada>
+	<Entrada>
+		<Codigo>130505</Codigo>
+		<Nombre>NACIONALES</Nombre>
+	</Entrada>
+</ns1:Catalogo>

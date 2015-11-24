@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns1:Comprobante xmlns:ns1="http://creativosdigitales.co/schema/docusfera.xsd">
+    <Tipo>Egresos</Tipo>
+    <Numero>2521544581</Numero>
+    <Fecha>2016-02-02</Fecha>
+    <Nota>2306c9057f2f78856358a6af97dd58bbff64199720a7c756e8156be2a27a0d91</Nota>
+    <Empresa>
+        <Codigo>10345953</Codigo>
+        <Nombre>Humberto Bustamante</Nombre>
+    </Empresa>
+    <Tercero>
+        <Codigo>10655236</Codigo>
+        <Nombre>Remberto Cardona</Nombre>
+    </Tercero>
+    <Totales>
+        <Valor>873984.58</Valor>
+    </Totales>
+    <Contabilizacion>
+
+    <Asiento><Libro>COMUN</Libro><Cuenta><Codigo>11200505</Codigo><Nombre>BANCOLOMBIA CTA DE AHORROS</Nombre></Cuenta><Tercero><Codigo>10235223</Codigo><Nombre>Rocío Maria Lara</Nombre></Tercero><Debito>100</Debito><Credito>0</Credito></Asiento><Asiento><Libro>COMUN</Libro><Cuenta><Codigo>11200505</Codigo><Nombre>BANCOLOMBIA CTA DE AHORROS</Nombre></Cuenta><Tercero><Codigo>10655236</Codigo><Nombre>Remberto Cardona</Nombre></Tercero><Debito>23</Debito><Credito>0</Credito></Asiento></Contabilizacion>
+</ns1:Comprobante>

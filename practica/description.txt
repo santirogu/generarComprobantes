@@ -1,0 +1,33 @@
+Generador de Datos de Prueba Multithreading
+
+Construya un programa que genere Comprobantes contables a partir de un listado de Empresas (Parties.xml) y Cuentas Contables (account.xml)
+
+El programa recibe por entrada el numero de Comprobantes que debe generar y al final mostrar el tiempo total
+que le tomó generar todos los documentos.
+
+Cada documento Comprobante debe generarse siguiendo las siguientes reglas:
+
+Partiendo del archivo comprobante.xml se hacen las siguientes modificaciones:
+
+Elementos que se deben cambiar por valores aleatorios
+Numero: que sea una cadena de 10 caracteres (Listo)
+Fecha: que sea una fecha valida (Listo)
+
+
+El Empresa y el Tercero se reemplazan cada uno  por un Party tomado del archivo parties.xml aleatoriamente (Listo)
+
+Se debe generar minimo 1 y maximo 10 elementos Asiento por cada Comprobante (Listo)
+En cada uno se debe asignar los siguientes valores tomados aleatoriamente del archivo cuentas.xml:
+Cuenta/Codigo (Listo)
+Cuenta/Nombre (Listo)
+Debitos: Poner un valor aleatorio o cero (Listo)
+Creditos: Poner un valor aleatorio o cero (Listo)
+Si una linea tiene valor en Debitos, Creditos debe ser cero y viceversa (Listo)
+
+Cada Comprobante resultante se debe guardar en un archivo cuyo nombre sea el ID
+
+Entregables
+
+El proyecto se debe realizar en equipos de dos (3) estudiantes
+Se sustenta personalmente el viernes 20 de noviembre en el aula 4-111 a las 11:00 am 13:00pm
+El código fuente debe entregarse como un proyecto en GitHub o SourceForge
