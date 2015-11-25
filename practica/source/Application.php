@@ -8,6 +8,7 @@ require 'Voucher.php';
 require 'Party.php';
 require 'Account.php';
 require 'Item.php';
+require 'PThread.php';
 
 class Application{
 
@@ -15,6 +16,11 @@ class Application{
 
     public static function Execute(){
         $TimeManager = new TimeManager();
+        /* Thread Instance */
+        $thread = new PThread();
+        if($thread->start()){
+            $thread->join();
+        }
         self::generateAccounts();
         self::generateVouchersTemplate();
         self::generateParties();

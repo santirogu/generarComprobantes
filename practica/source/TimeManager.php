@@ -4,6 +4,7 @@ class TimeManager{
     public $INIT_TIME = NULL;
     public $FINAL_TIME = NULL;
 
+
     public function __construct(){
         date_default_timezone_set('America/Bogota');
         $this->INIT_TIME = new DateTime('now');
@@ -25,6 +26,7 @@ class TimeManager{
         '<b>Total time:</b> '.$this->interval().'</div>';
     }
 }
+
 /**
  * Created by Santiago RG.
  * User: Asus X452E A4

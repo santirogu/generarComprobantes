@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns1:Comprobante xmlns:ns1="http://creativosdigitales.co/schema/docusfera.xsd">
+    <Tipo>Egresos</Tipo>
+    <Numero>6885225171</Numero>
+    <Fecha>2016-05-11</Fecha>
+    <Nota>25935e0e39520496964690566f98b319d6247bdbb681dacd6bf35fabb05d298f</Nota>
+    <Empresa>
+        <Codigo>10655236</Codigo>
+        <Nombre>Remberto Cardona</Nombre>
+    </Empresa>
+    <Tercero>
+        <Codigo>10749897</Codigo>
+        <Nombre>Elizabeth Bejarano</Nombre>
+    </Tercero>
+    <Totales>
+        <Valor>303219.14</Valor>
+    </Totales>
+    <Contabilizacion>
+
+    <Asiento><Libro>COMUN</Libro><Cuenta><Codigo>110510</Codigo><Nombre>CAJA MENOR</Nombre></Cuenta><Tercero><Codigo>10134615</Codigo><Nombre>Irma Hurtado</Nombre></Tercero><Debito>9</Debito><Credito>0</Credito></Asiento><Asiento><Libro>COMUN</Libro><Cuenta><Codigo>13</Codigo><Nombre>DEUDORES</Nombre></Cuenta><Tercero><Codigo>10057550</Codigo><Nombre>Francisco Vaca</Nombre></Tercero><Debito>17</Debito><Credito>0</Credito></Asiento><Asiento><Libro>COMUN</Libro><Cuenta><Codigo>1110</Codigo><Nombre>BANCOS</Nombre></Cuenta><Tercero><Codigo>10604829</Codigo><Nombre>Hernán Chilcué</Nombre></Tercero><Debito>31</Debito><Credito>0</Credito></Asiento></Contabilizacion>
+</ns1:Comprobante>
